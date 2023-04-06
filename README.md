@@ -7,9 +7,9 @@
 **6.Zondicons:** A set of free premium SVG icons for you to use on your digital products.  
 
 # How to run
-There is an attached video demonstrating the functionality and interface of the system.
-This repository already has a built version, so it can simply be cloned and run.
-Either you want to run on dev or deploy as build, you will find the instructions below.
+There is an attached video demonstrating the functionality and interface of the system.  
+This repository already has a built version, so it can simply be cloned and run.  
+Either you want to run on dev or deploy as build, you will find the instructions below.  
 
 # create-svelte
 
