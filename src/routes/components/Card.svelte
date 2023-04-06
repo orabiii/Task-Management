@@ -1,5 +1,7 @@
-<!-- component -->
+<!-- Card Component -->
 <script>
+    // import db file to access the db instance
+    // import Modal Components with will be inegrated into card
     import { db } from '$lib/db';
     import Modal from './Modal.svelte';
 	
@@ -15,6 +17,8 @@
     export let date;
     export let id;
 
+    // async functions to delte or update records from db
+    // implemented as funcrion as required in description
     async function deleteCard(id) {
         try{
         await db.tasks.delete(id);
@@ -22,6 +26,7 @@
       status = `Failed to add ${title}: ${error}`;
       alert(status)
 	} }
+
     async function editCard(id) {
         try{
         await db.tasks.put({id: id, category: category, title: title , description:description , date:date});
