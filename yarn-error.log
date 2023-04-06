@@ -1,0 +1,65 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\OS\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add dayjs
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft MPI\Bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Go\bin;C:\MinGW\bin;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Users\OS\Desktop\redis;C:\Program Files\WinMerge;D:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs\;C:\Users\OS\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\OS\AppData\Local\Programs\Python\Python39\;C:\Users\OS\AppData\Local\Microsoft\WindowsApps;C:\Users\OS\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\OS\go\bin;C:\Gradle\gradle-6.7\bin;C:\Program Files\swipl\bin;C:\Users\OS\AppData\Roaming\Composer\vendor\bin;C:\Users\OS\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'D:\svelte\svelteKit\my-app\node_modules\@esbuild\win32-x64\esbuild.exe'
+
+npm manifest: 
+  {
+  	"name": "my-app",
+  	"version": "0.0.1",
+  	"private": true,
+  	"scripts": {
+  		"dev": "vite dev",
+  		"build": "vite build",
+  		"preview": "vite preview",
+  		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
+  		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
+  		"test": "playwright test",
+  		"test:unit": "vitest",
+  		"lint": "prettier --plugin-search-dir . --check . && eslint .",
+  		"format": "prettier --plugin-search-dir . --write ."
+  	},
+  	"devDependencies": {
+  		"@playwright/test": "^1.28.1",
+  		"@sveltejs/adapter-auto": "^2.0.0",
+  		"@sveltejs/kit": "^1.5.0",
+  		"autoprefixer": "^10.4.14",
+  		"eslint": "^8.28.0",
+  		"eslint-config-prettier": "^8.5.0",
+  		"eslint-plugin-svelte3": "^4.0.0",
+  		"postcss": "^8.4.21",
+  		"prettier-plugin-svelte": "^2.10.0",
+  		"svelte": "^3.54.0",
+  		"svelte-check": "^3.0.1",
+  		"tailwindcss": "^3.3.1",
+  		"typescript": "^5.0.0",
+  		"vite": "^4.2.0",
+  		"vitest": "^0.25.3"
+  	},
+  	"type": "module",
+  	"dependencies": {
+  		"dexie": "^4.0.1-alpha.10",
+  		"flowbite": "^1.6.4",
+  		"flowbite-datepicker": "^1.2.2"
+  	},
+  	"format": "prettier --write --plugin-search-dir=. ./**/*.html"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
