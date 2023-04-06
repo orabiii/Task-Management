@@ -1,12 +1,11 @@
-        <script>
-	export let showModal; // boolean
-    export const close = () => {
-                console.log("close222")
+<!-- Modal Components -->
+<script>
+export let showModal; // boolean
 
-        dialog.close()};
-
+// function that control the dialog to be opened or closed and can be called from another components
+export const close = () => {
+    dialog.close()};
 	let dialog; // HTMLDialogElement
-
 	$: if (dialog && showModal) dialog.showModal();
 </script>
 
