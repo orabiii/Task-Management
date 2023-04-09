@@ -1,9 +1,11 @@
+![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png)
 # IMPORTANT NOTE
+![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) 
 
-**There are two versions of the app, one of which was delivered on time before the deadline and is in the master branch.**
-**Another version I worked on later by adding a few changes like extra features and code enhancements existing in the main branch.**
-Each one of them has its own demo, and the selection for the evaluation is yours.
-Thanks in advance.
+**There are two versions of the app, one of which was delivered on time before the deadline and is in the master branch.**  
+**Another version I worked on later by adding a few changes like extra features and code enhancements existing in the main branch.**  
+**Each one of them has its own demo, and the selection for the evaluation is yours.**  
+**Thanks in advance.**  
 
 # Used technologies and frameworks
 
@@ -20,10 +22,10 @@ There is an attached video demonstrating the functionality and interface of the 
 This repository already has a built version, so it can simply be cloned and run.  
 Either you want to run on dev or deploy as build, you will find the instructions below.
 
-** You can run the built version using the command "npm run preview"  
-which will run locally on the port 4173 **  
-Or you can run it in development using the command "npm run dev"  
-which will also run locally on port 5173
+**You can run the built version using the command "npm run preview"  
+which will run locally on the port 4173**    
+**Or you can run it in development using the command "npm run dev"  
+which will also run locally on port 5173**
 
 # create-svelte
 
