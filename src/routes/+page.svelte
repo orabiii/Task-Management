@@ -5,7 +5,6 @@
   import { liveQuery } from 'dexie';
   import Card from './components/Card.svelte';
   import AddTask from './components/AddTask.svelte';
-
   // make a query to indexedDb to get all tasks from the table
   let allTasks = liveQuery(
     () => db.tasks.toArray()
