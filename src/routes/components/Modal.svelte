@@ -2,6 +2,7 @@
 <script>
 export let showModal; // boolean
 
+
 // function that control the dialog to be opened or closed and can be called from another components
 export const close = () => {
     dialog.close()};
@@ -22,11 +23,12 @@ export const close = () => {
 		<!-- svelte-ignore a11y-autofocus -->
 		<!-- <button autofocus on:click={() => dialog.close()}>close modal</button> -->
 	</div>
+
 </dialog>
 
 <style>
 	dialog {
-		max-width: 600px;
+		max-width: 400px;
 		border-radius: 0.1em;
 		border: none;
 		padding: 0;
